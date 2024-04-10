@@ -12,7 +12,7 @@ Uma das obrigações que uma securitizadora tem para cumprir é o acompanhamento
 
 - O código deverá ser hospedado em algum repositório público. Diversos quesitos serão avaliados aqui, como organização do código, sequencialidade de commits, nomeação de classes e métodos, etc.
 - O código deverá estar pronto para ser executado e testado, portanto, caso exista algum requisito, este deve estar completamente documentado no README do seu projeto.
-- Marcaremos um papo para você nos explicar a solução.
+- Marcaremos um papo para você nos explicar a solução e suas motivações.
 - Você deverá utilizar a nossa stack de tecnologias: Java ou Kotlin + Spring boot.
 
 ### O que nós ficaríamos felizes de ver em seu teste
