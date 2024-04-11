@@ -4,7 +4,7 @@
 
 Uma das obrigações que uma securitizadora tem para cumprir é o acompanhamento do fluxo de pagamentos.
 
-1. Imagine que hoje temos um sistema para calcular esses fluxos de pagamentos. O sistema conta com 800 fluxos que precisam ser pagos mensalmente em dias úteis diversos. Hoje o serviço que retorna o fluxo de pagamentos com o valor a ser pago, faz conexão com o banco, vários cálculos e está lento. Em dias específicos há muitos pagamentos e a consulta dos fluxos ficam mais lentos. Na sua visão, como poderíamos iniciar a busca pelo problema, e que tipo de melhoria poderia ser feita?
+1. Imagine que hoje temos um sistema para calcular esses fluxos de pagamentos. O sistema conta com 800 fluxos que precisam ser pagos mensalmente em dias úteis diversos. Hoje o serviço que retorna o fluxo de pagamentos com o valor a ser pago, faz conexão com o banco, vários cálculos e está lento. Em dias específicos há muitos pagamentos e a consulta dos fluxos ficam mais lentos. Na sua visão, como poderíamos iniciar a busca pelo problema, e que tipo de melhoria poderia ser feita? (Não há código aqui. Apenas elabore uma estratégia e compartilhe conosco no nosso papo a ser marcado.)
 
 2. Com base no problema anterior, gostaríamos que você codificasse um novo sistema para gerenciar pagamentos feitos e pendentes que chamaria o outro sistema de fluxos para obter datas de pagamentos e o valor a ser pago. O sistema de fluxos pode ser mockado simulando uma chamada que demora 6s.
 
