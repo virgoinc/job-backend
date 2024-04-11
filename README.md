@@ -8,6 +8,13 @@ Uma das obrigações que uma securitizadora tem para cumprir é o acompanhamento
 
 2. Com base no problema anterior, gostaríamos que você codificasse um novo sistema para gerenciar pagamentos feitos e pendentes que chamaria o outro sistema de fluxos para obter datas de pagamentos e o valor a ser pago. O sistema de fluxos pode ser mockado simulando uma chamada que demora 6s.
 
+### Sobre o sistema de fluxos
+
+- adicionamos arquivos para simular uma API que são os arquivos na pasta `api`
+- para chamar a API, faça pelo próprio endpiont do GitHub com a url base: `https://raw.githubusercontent.com/virgoinc/job-backend/api`
+- para listar os ids dos fluxos: `/fluxos.json`
+- para pegar os fluxos com as datas de pagamentos e valores: `/fluxos/:idFluxo`
+
 ### O que nós esperamos do seu teste
 
 - O código deverá ser hospedado em algum repositório público. Diversos quesitos serão avaliados aqui, como organização do código, sequencialidade de commits, nomeação de classes e métodos, etc.
