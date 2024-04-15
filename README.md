@@ -6,7 +6,12 @@ Uma das obrigações que uma securitizadora tem para cumprir é o acompanhamento
 
 1. Imagine que hoje temos um sistema para calcular esses fluxos de pagamentos. O sistema conta com 800 fluxos que precisam ser pagos mensalmente em dias úteis diversos. Hoje o serviço que retorna o fluxo de pagamentos com o valor a ser pago, faz conexão com o banco, vários cálculos e está lento. Em dias específicos há muitos pagamentos e a consulta dos fluxos ficam mais lentos. Na sua visão, como poderíamos iniciar a busca pelo problema, e que tipo de melhoria poderia ser feita? (Não há código aqui. Apenas elabore uma estratégia e compartilhe conosco no nosso papo a ser marcado.)
 
-2. Com base no problema anterior, gostaríamos que você codificasse um novo sistema para gerenciar pagamentos feitos e pendentes que chamaria o outro sistema de fluxos para obter datas de pagamentos e o valor a ser pago. O sistema de fluxos pode ser mockado simulando uma chamada que demora 6s.
+2. Com base no problema anterior, segue o pedido:
+  - Eu como usuário do sistema, gostaria de ter mais controle sobre o fluxo de pagamento.
+  - Dado o [sistema de fluxos](#sobre-o-sistema-de-fluxos), quando precisar fazer um pagamento na data prevista, preciso ter um controle de quais pagamentos já foram feitos para fazer somente dos que ainda estão pendentes.
+  - Gostaríamos que você codificasse um novo sistema para gerenciar pagamentos feitos e pendentes que chamaria o outro [sistema de fluxos](#sobre-o-sistema-de-fluxos) para obter datas de pagamentos e o valor a ser pago.
+  - Na chamada do [sistema de fluxos](#sobre-o-sistema-de-fluxos), simule uma demora de 6s para obter os valores.
+  - O controle de pagamentos fica livre à seu critério de como deveria ser a solução.
 
 ### Sobre o sistema de fluxos
 
